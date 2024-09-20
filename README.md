@@ -23,6 +23,7 @@ CodeIgniter is mainly based on the Hierarchical Model View Controller (HMVC). Th
 ## Controller:
 The controller assists as the intermediary component of the models and view that facilitates interaction between the view and the model. 
 In this project's development, the controller is mainly created and managed using the PHP language and all business logic and interconnected methods are defined within classes, organized based on main classes and subclasses.
+Under the controller, all the business logic and interconnected methods related code files are stored. 
 
 ## View :
 
@@ -31,11 +32,14 @@ Under this project development, interfaces are developed using HTML, PHP, JS and
 
 **Please** read the user guide for a better understaning for Boostrap framework.[Boostrap ](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
 
-## Model:  :
+## Model:  
 
 The model component is responsible for managing all data-related logic that the user interacts with. It represents data transferred between the View and Controller components or any other business logic-related data. 
 
 For this project, the database is hosted on the MYSLQ database saver, and CodeIgniter framework helps to easily interact with MySQL databases by providing a well-structured library and query builder, making it easy to perform common database operations safely and efficiently.
+
+## Validation:  
+CodeIgniter 4 provides a robust validation system that helps ensure the correctness of the data before it is processed or stored in a database. Validation rules are applied to incoming request data and can be configured in controllers or through configuration files
 
 ## CPAS - Project Structures 
 
@@ -52,4 +56,5 @@ The overall system development code is based on the MVC architecture. Therfore, 
 9.	Admin Module
 
 For each module, classes are developed separately as it is the basic rule of Codeigniter 4 framework. Each class has separate methods to handle functionality of modules. Mainly these methods handle the data’s CRUD operation processes by interacting with the model class to store and retrieve the data.
+
 
