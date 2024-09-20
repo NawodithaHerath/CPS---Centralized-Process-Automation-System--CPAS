@@ -74,6 +74,8 @@ The overall system development code is based on the MVC architecture. Therfore, 
 8.	Management report Generating
 9.	Admin Module
 
-For each module, classes are developed separately as it is the basic rule of Codeigniter 4 framework. Each class has separate methods to handle functionality of modules. Mainly these methods handle the data’s CRUD operation processes by interacting with the model class to store and retrieve the data.
+For each module, classes are developed separately as it is the basic rule of Codeigniter 4 framework. 
 
+Each class has separate methods to handle functionality of modules. Mainly these methods handle the data’s CRUD operation processes by interacting with the model class to store and retrieve the data.
 
+Each module has its own controllers to handle the business logic and interconnections, views for data input and data display, as well as validation rules to validate the input data and modules for storing and retrieving data from the database. Therefore, each module has code files to handle the processes under the controllers, views, models, and validation.
