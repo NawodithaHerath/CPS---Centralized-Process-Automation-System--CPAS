@@ -1,28 +1,24 @@
 # Centralized Process Automation System
 
-## Centralized Process Automation System?
+Github link: https://github.com/NawodithaHerath/CPS---Centralized-Process-Automation-System--CPAS
+
+##  What is Centralized Process Automation System?
 **Centralized Process Automation System for the Banking Sector to Manage and Govern Internal Audit**
-Details
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Centralized Process Automation System (CPAS)is a comprehensive internal audit tool designed to enhance efficiency and effectiveness within the banking sector.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+The project is motivated by the need to automate internal auditing processes, providing a solution to challenges in data management, communication, resource planning, monitoring, and decision support.
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+This repository holds a all the coding file that built the C**Centralized Process Automation System** project based on the Codeigniter 4 framework.
+Code structure based on the Codeigniter 4 framework and all the files are strucutred following the Codeigniter 4 framework corde's structureing rules.
 
-## Installation & updates
+More before information about the development of this project is , it is requiered to understand the Codeigniter 4 framework in first hand. [CodeIgniter 4](https://codeigniter.com/user_guide/intro/index.html) .
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+The user guide corresponding to the cording structure of the Centralized Process Automation System.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## System Architecture 
+
+The Centralized Process Automation system is implemented under the Model-View-Controller (MVC)  structure. In the bottom line, the database is the model layer which contains business logic and information about the database's data types. At the top is the display layer, which is mostly CSS, JavaScript, and HTML with dynamic embedded code. In the middle, it has the controller, which has various rules and methods for converting data that moves between the view and the model according to the business logic
 
 ## Setup
 
