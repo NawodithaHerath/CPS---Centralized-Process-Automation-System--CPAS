@@ -15,6 +15,10 @@ Before delving into the development of this project, it is essential to first un
 
 This user guide corresponding to the cording structure of the Centralized Process Automation System.
 
+## Installation and setup of the CPAS
+
+The system runs on an Apache server and handles user requests and responses through server interactions. The system is developed using the CodeIgniter 4 framework, which is based on PHP. Therefore, the setup and installation should follow the guidelines of the CodeIgniter 4 framework accordingly
+
 ## System Architecture 
 The Centralized Process Automation system is implemented under the Model-View-Controller (MVC)  structure. In the bottom line, the database is the model layer which contains business logic and information about the database's data types. At the top is the display layer, which is mostly CSS, JavaScript, and HTML with dynamic embedded code. In the middle, it has the controller, which has various rules and methods for converting data that moves between the view and the model according to the business logic
 
@@ -39,7 +43,11 @@ The model component is responsible for managing all data-related logic that the 
 For this project, the database is hosted on the MYSLQ database saver, and CodeIgniter framework helps to easily interact with MySQL databases by providing a well-structured library and query builder, making it easy to perform common database operations safely and efficiently.
 
 ## Validation:  
-CodeIgniter 4 provides a robust validation system that helps ensure the correctness of the data before it is processed or stored in a database. Validation rules are applied to incoming request data and can be configured in controllers or through configuration files
+CodeIgniter 4 provides a robust validation system that helps ensure the correctness of the data before it is processed or stored in a database. Validation rules are applied to incoming request data and can be configured in controllers or through configuration files.
+
+In this project, valudations rules are avaible for the all the data input forms and all the validation files are sotroed in the validation directory follwoing the CodeIgniter 4 file structuring rules
+
+
 
 ## CPAS - Project Structures 
 
