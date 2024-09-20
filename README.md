@@ -5,7 +5,7 @@ Github link: https://github.com/NawodithaHerath/CPS---Centralized-Process-Automa
 ##  What is Centralized Process Automation System?
 **Centralized Process Automation System for the Banking Sector to Manage and Govern Internal Audit**
 
-Centralized Process Automation System (CPAS)is a comprehensive internal audit tool designed to enhance efficiency and effectiveness within the banking sector.
+Centralized Process Automation System (CPAS) is a comprehensive internal audit tool designed to enhance efficiency and effectiveness within the banking sector.
 
 The project is motivated by the need to automate internal auditing processes, providing a solution to challenges in data management, communication, resource planning, monitoring, and decision support.
 
