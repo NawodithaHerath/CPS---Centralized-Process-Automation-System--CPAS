@@ -9,10 +9,10 @@ Centralized Process Automation System (CPAS)is a comprehensive internal audit to
 
 The project is motivated by the need to automate internal auditing processes, providing a solution to challenges in data management, communication, resource planning, monitoring, and decision support.
 
-This repository holds a all the coding file that built the C**Centralized Process Automation System** project based on the Codeigniter 4 framework.
+This repository holds a all the coding file that built the **Centralized Process Automation System** project based on the Codeigniter 4 framework.
 Code structure based on the Codeigniter 4 framework and all the files are strucutred following the Codeigniter 4 framework corde's structureing rules.
 
-More before information about the development of this project is , it is requiered to understand the Codeigniter 4 framework in first hand. [CodeIgniter 4](https://codeigniter.com/user_guide/intro/index.html) .
+More before information about the development of this project, it is requiered to understand the Codeigniter 4 framework in first hand. [CodeIgniter 4](https://codeigniter.com/user_guide/intro/index.html) 
 
 The user guide corresponding to the cording structure of the Centralized Process Automation System.
 
@@ -20,19 +20,19 @@ The user guide corresponding to the cording structure of the Centralized Process
 
 The Centralized Process Automation system is implemented under the Model-View-Controller (MVC)  structure. In the bottom line, the database is the model layer which contains business logic and information about the database's data types. At the top is the display layer, which is mostly CSS, JavaScript, and HTML with dynamic embedded code. In the middle, it has the controller, which has various rules and methods for converting data that moves between the view and the model according to the business logic
 
-## Setup
+CodeIgniter is mainly based on the Hierarchical Model View Controller (HMVC). Therfore, project was organized each module by grouping into controllers, views and models repressing the layer by layer.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## Controller:
+The controller assists as the intermediary component of the models and view that facilitates interaction between the view and the model. 
+In this project's development, the controller is mainly created and managed using the PHP language and all business logic and interconnected methods are defined within classes, organized based on main classes and subclasses.
 
-## Important Change with index.php
+## View :
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+The View component is used for all UI logic in the system. It generates user interfaces for the user. 
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+Under this project development, interfaces are developed using HTML, PHP, JS and CSS. Core of the interface depends on the HTML, manipulation and validation on the user's web browser handled by the PHP and JS. Interface design, visual and graphic related things are handled using the CSS with the support of Boostrap framework for better user experience, ease and faster development of the project
+
+
 
 **Please** read the user guide for a better explanation of how CI4 works!
 
