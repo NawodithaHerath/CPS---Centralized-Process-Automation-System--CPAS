@@ -9,7 +9,7 @@ Centralized Process Automation System (CPAS) is a comprehensive internal audit t
 
 The project is motivated by the need to automate internal auditing processes, providing a solution to challenges in data management, communication, resource planning, monitoring, and decision support.
 
-This repository contains all the code files that built the Centralized Process Automation System project, based on the CodeIgniter 4 framework. The code structure follows CodeIgniter 4's framework and adheres to its file structuring rules
+This repository contains all the code files that built the Centralized Process Automation System project, based on the CodeIgniter 4 framework. The code structure follows CodeIgniter 4's framework and adheres to its file structuring rules.
 
 Before delving into the development of this project, it is essential to first understand the CodeIgniter 4 framework. [CodeIgniter 4](https://codeigniter.com/user_guide/intro/index.html) 
 
