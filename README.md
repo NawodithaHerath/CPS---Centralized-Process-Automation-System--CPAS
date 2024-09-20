@@ -9,10 +9,9 @@ Centralized Process Automation System (CPAS)is a comprehensive internal audit to
 
 The project is motivated by the need to automate internal auditing processes, providing a solution to challenges in data management, communication, resource planning, monitoring, and decision support.
 
-This repository holds a all the coding file that built the **Centralized Process Automation System** project based on the Codeigniter 4 framework.
-Code structure based on the Codeigniter 4 framework and all the files are strucutred following the Codeigniter 4 framework corde's structureing rules.
+This repository contains all the code files that built the Centralized Process Automation System project, based on the CodeIgniter 4 framework. The code structure follows CodeIgniter 4's framework and adheres to its file structuring rules
 
-More before information about the development of this project, it is requiered to understand the Codeigniter 4 framework in first hand. [CodeIgniter 4](https://codeigniter.com/user_guide/intro/index.html) 
+Before delving into the development of this project, it is essential to first understand the CodeIgniter 4 framework. [CodeIgniter 4](https://codeigniter.com/user_guide/intro/index.html) 
 
 This user guide corresponding to the cording structure of the Centralized Process Automation System.
 
@@ -38,22 +37,19 @@ The model component is responsible for managing all data-related logic that the 
 
 For this project, the database is hosted on the MYSLQ database saver, and CodeIgniter framework helps to easily interact with MySQL databases by providing a well-structured library and query builder, making it easy to perform common database operations safely and efficiently.
 
-## ReCPAS - Project Structures 
+## CPAS - Project Structures 
 
-The overall system development code is based on the MVC architecture. Therfore, The system's workflow handling process involves the development of nine main sub-modules, namely
+The overall system development code is based on the MVC architecture. Therfore, The system's workflow handling process involves the development of nine main sub-modules.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+1.	User Handling Module
+2.	Checklist Creation Module
+3.	Audit creation module & team assigning
+4.	Audit comment entering module
+5.	Audit comment review module
+6.	Branch manager reply  entering module
+7.	Branch manager reply  review
+8.	Management report Generating
+9.	Admin Module
 
-## Server Requirements
+For each module, classes are developed separately as it is the basic rule of Codeigniter 4 framework. Each class has separate methods to handle functionality of modules. Mainly these methods handle the data’s CRUD operation processes by interacting with the model class to store and retrieve the data.
 
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
