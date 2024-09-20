@@ -17,7 +17,6 @@ More before information about the development of this project, it is requiered t
 The user guide corresponding to the cording structure of the Centralized Process Automation System.
 
 ## System Architecture 
-
 The Centralized Process Automation system is implemented under the Model-View-Controller (MVC)  structure. In the bottom line, the database is the model layer which contains business logic and information about the database's data types. At the top is the display layer, which is mostly CSS, JavaScript, and HTML with dynamic embedded code. In the middle, it has the controller, which has various rules and methods for converting data that moves between the view and the model according to the business logic
 
 CodeIgniter is mainly based on the Hierarchical Model View Controller (HMVC). Therfore, project was organized each module by grouping into controllers, views and models repressing the layer by layer.
@@ -32,9 +31,14 @@ The View component is used for all UI logic in the system. It generates user int
 
 Under this project development, interfaces are developed using HTML, PHP, JS and CSS. Core of the interface depends on the HTML, manipulation and validation on the user's web browser handled by the PHP and JS. Interface design, visual and graphic related things are handled using the CSS with the support of Boostrap framework for better user experience, ease and faster development of the project
 
+**Please** read the user guide for a better understaning for Boostrap framework.[Boostrap ](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
 
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## Model:  :
+
+The model component is responsible for managing all data-related logic that the user interacts with. It represents data transferred between the View and Controller components or any other business logic-related data. 
+
+For this project, the database is hosted on the MYSLQ database saver, and CodeIgniter framework helps to easily interact with MySQL databases by providing a well-structured library and query builder, making it easy to perform common database operations safely and efficiently.
 
 ## Repository Management
 
