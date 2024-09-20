@@ -27,6 +27,7 @@ CodeIgniter is mainly based on the Hierarchical Model View Controller (HMVC). Th
 ## Controller:
 The controller assists as the intermediary component of the models and view that facilitates interaction between the view and the model. 
 In this project's development, the controller is mainly created and managed using the PHP language and all business logic and interconnected methods are defined within classes, organized based on main classes and subclasses.
+
 All the business logic and interconnected method-related code files are stored in the directory: app/Controllers
 
 ## View :
